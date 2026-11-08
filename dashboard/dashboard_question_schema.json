@@ -1,0 +1,719 @@
+{
+  "source": "survey_results_schema.csv",
+  "questions": {
+    "AIAdopt": {
+      "question": "When you or your organization decides whether to adopt, continue using, or expand use of an AI tool or model for your work, which factors matter most? Select up to 3.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "AIAdopt",
+      "sq_id": "NA"
+    },
+    "AIAvoid": {
+      "question": "Do you try to avoid using AI tools or agents at work or school? Select the option below that most accurately reflects your reasoning.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "AIAvoid",
+      "sq_id": "NA"
+    },
+    "AICodeAgentHaveWorkedWith": {
+      "question": "Have you used any of the following coding agents or assistants in the past year? Do you want to use any of the following in the next 6 months?",
+      "sub": "Used in the past year",
+      "type": "Matrix",
+      "qname": "AICodeAgent",
+      "sq_id": "NA"
+    },
+    "AIComplex": {
+      "question": "How well do the AI tools or AI agents you use in your development workflow handle complex tasks?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "AIComplex",
+      "sq_id": "NA"
+    },
+    "AIFreq_1": {
+      "question": "How often do you use each of these AI tools or AI agents in your role at work?",
+      "sub": "AI coding assistants or coding agents",
+      "type": "Matrix",
+      "qname": "AIFreq",
+      "sq_id": "1"
+    },
+    "AIFreq_2": {
+      "question": "How often do you use each of these AI tools or AI agents in your role at work?",
+      "sub": "General-purpose AI chat tools",
+      "type": "Matrix",
+      "qname": "AIFreq",
+      "sq_id": "2"
+    },
+    "AIFreq_3": {
+      "question": "How often do you use each of these AI tools or AI agents in your role at work?",
+      "sub": "AI agents or automated workflows",
+      "type": "Matrix",
+      "qname": "AIFreq",
+      "sq_id": "3"
+    },
+    "AIFreq_4": {
+      "question": "How often do you use each of these AI tools or AI agents in your role at work?",
+      "sub": "Internal AI tools built by my company",
+      "type": "Matrix",
+      "qname": "AIFreq",
+      "sq_id": "4"
+    },
+    "AIImpact_1": {
+      "question": "When using AI tools or AI agents at work, how useful has AI proven itself for the task or activity? Select one answer for each.",
+      "sub": "Design",
+      "type": "Matrix",
+      "qname": "AIImpact",
+      "sq_id": "1"
+    },
+    "AIImpact_7": {
+      "question": "When using AI tools or AI agents at work, how useful has AI proven itself for the task or activity? Select one answer for each.",
+      "sub": "Communication",
+      "type": "Matrix",
+      "qname": "AIImpact",
+      "sq_id": "7"
+    },
+    "AISat_1": {
+      "question": "When using AI tools or AI agents at work, which of the following have increased or decreased your usual satisfaction with completing the task? Select one answer for each.",
+      "sub": "Design",
+      "type": "Matrix",
+      "qname": "AISat",
+      "sq_id": "1"
+    },
+    "AISat_7": {
+      "question": "When using AI tools or AI agents at work, which of the following have increased or decreased your usual satisfaction with completing the task? Select one answer for each.",
+      "sub": "Communication",
+      "type": "Matrix",
+      "qname": "AISat",
+      "sq_id": "7"
+    },
+    "AISelect": {
+      "question": "Do you currently use AI tools or AI agents in your role at work?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "AISelect",
+      "sq_id": "NA"
+    },
+    "AIToken": {
+      "question": "Which, if any, of the following has your organization done related to AI tool or model usage? Select all that apply.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "AIToken",
+      "sq_id": "NA"
+    },
+    "AIToolCount": {
+      "question": "In a typical week, about how many distinct AI tools or AI-enabled products do you personally use for work? Count a tool if you intentionally use its AI capability. This may include chatbots, AI search or answer tools, AI coding assistants, AI features in IDEs, autonomous AI agents, internal AI assistants, local model runtimes, or AI tools built into workplace software. Do not count AI features you do not knowingly use. Do not count multiple models inside the same product unless you use them through separate tools or interfaces.",
+      "sub": "NA",
+      "type": "TE",
+      "qname": "AIToolCount",
+      "sq_id": "NA"
+    },
+    "AIToolSwitch": {
+      "question": "In the past year, have you switched from one AI tool to another for work? If yes, what was the primary reason?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "AIToolSwitch",
+      "sq_id": "NA"
+    },
+    "AITrust": {
+      "question": "How much do you trust the output from AI tools or AI agents as part of your workflow?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "AITrust",
+      "sq_id": "NA"
+    },
+    "AITry": {
+      "question": "Which of the following best describes how your organization currently approaches AI tools or models?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "AITry",
+      "sq_id": "NA"
+    },
+    "AIUse": {
+      "question": "Which of the following best describes how AI tools or agents are used at your organization today?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "AIUse",
+      "sq_id": "NA"
+    },
+    "AIWorkCurrentlyUse": {
+      "question": "Which parts of your workflow are you currently integrating into AI or using AI agents to accomplish? Will they be more or less integrated over the next year? Please select one for each scenario.",
+      "sub": "Currently use AI or AI agents for this",
+      "type": "Matrix",
+      "qname": "AIWork",
+      "sq_id": "NA"
+    },
+    "AIWorkDoNotPlanToUse": {
+      "question": "Which parts of your workflow are you currently integrating into AI or using AI agents to accomplish? Will they be more or less integrated over the next year? Please select one for each scenario.",
+      "sub": "Do not use AI or AI agents for this and do not plan to",
+      "type": "Matrix",
+      "qname": "AIWork",
+      "sq_id": "NA"
+    },
+    "AIWorkExpectMore": {
+      "question": "Which parts of your workflow are you currently integrating into AI or using AI agents to accomplish? Will they be more or less integrated over the next year? Please select one for each scenario.",
+      "sub": "Expect to use AI More or AI agents more for this",
+      "type": "Matrix",
+      "qname": "AIWork",
+      "sq_id": "NA"
+    },
+    "Age": {
+      "question": "What is your age?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "Age",
+      "sq_id": "NA"
+    },
+    "Answers": {
+      "question": "Which actions do you turn to first when trying to find answers to a problem? Select your top 3 choices.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "Answers",
+      "sq_id": "NA"
+    },
+    "AnswersTrust": {
+      "question": "What makes you trust the information you find when you are searching for answers? Select your top 3 choices.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "AnswersTrust",
+      "sq_id": "NA"
+    },
+    "BuildTool": {
+      "question": "Have you used or been involved with building in-house software in the past year, or are you planning to do so in the next year? Select all work functions from the list below that apply.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "BuildTool",
+      "sq_id": "NA"
+    },
+    "BuildToolAI": {
+      "question": "Which of the following, if any, has your team built with AI assistance in the past 12 months?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "BuildToolAI",
+      "sq_id": "NA"
+    },
+    "CloudPlatHaveWorkedWith": {
+      "question": "Which cloud platforms, containerization/orchestration tools, package managers, build tools, and infrastructure as code solutions have you done extensive development work in over the past year? Which do you want to work in over the next year? If you worked with the platform and want to continue to do so, please check both boxes in that row.",
+      "sub": "Worked with in past year",
+      "type": "Matrix",
+      "qname": "CloudPlat",
+      "sq_id": "NA"
+    },
+    "CloudPlatWantToWorkWith": {
+      "question": "Which cloud platforms, containerization/orchestration tools, package managers, build tools, and infrastructure as code solutions have you done extensive development work in over the past year? Which do you want to work in over the next year? If you worked with the platform and want to continue to do so, please check both boxes in that row.",
+      "sub": "Want to work with next year",
+      "type": "Matrix",
+      "qname": "CloudPlat",
+      "sq_id": "NA"
+    },
+    "CodeMain": {
+      "question": "Are you someone who creates code? Please select one of the following options that best describes you today.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "CodeMain",
+      "sq_id": "NA"
+    },
+    "CodeTestHaveWorkedWith": {
+      "question": "Which tools for code testing, reliability, and maintainability have you done extensive development work in over the past year? Which do you want to work in over the next year? If you worked with the tool and want to continue to do so, please check both boxes in that row.",
+      "sub": "Worked with in past year",
+      "type": "Matrix",
+      "qname": "CodeTest",
+      "sq_id": "NA"
+    },
+    "CommPlatHaveWorkedWith": {
+      "question": "Which community platforms have you used for technology-related content or purposes considerably or consistently in the past year? Which do you want to use over the next year? Please check all that apply.",
+      "sub": "Worked with in past year",
+      "type": "Matrix",
+      "qname": "CommPlat",
+      "sq_id": "NA"
+    },
+    "CommunityGap": {
+      "question": "What, if anything, prevents you from participating more in technical or professional communities? Select all that apply.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "CommunityGap",
+      "sq_id": "NA"
+    },
+    "CommunitySkills": {
+      "question": "Which sources most influence what technical, AI, or professional skills you decide to learn next? Select up to 3.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "CommunitySkills",
+      "sq_id": "NA"
+    },
+    "CommunityType": {
+      "question": "How do you participate in technical or professional communities? Select all that apply.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "CommunityType",
+      "sq_id": "NA"
+    },
+    "ContextFreq": {
+      "question": "How often do you discover important work context only after you have already started or completed a task?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "ContextFreq",
+      "sq_id": "NA"
+    },
+    "ContextProblems": {
+      "question": "Which of the following make it difficult to get the context you need for work? Select all that apply.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "ContextProblems",
+      "sq_id": "NA"
+    },
+    "ContextSelect": {
+      "question": "When working on a project or task, which types of context are most important for you to have? Select up to 5.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "ContextSelect",
+      "sq_id": "NA"
+    },
+    "ContextWork": {
+      "question": "Which of the following do you do to manage or prepare context for your work? Select all that apply.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "ContextWork",
+      "sq_id": "NA"
+    },
+    "Country": {
+      "question": "Where do you live?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "Country",
+      "sq_id": "NA"
+    },
+    "DatabasesHaveWorkedWith": {
+      "question": "Which database environments have you done extensive development work in over the past year? Which do you want to work in over the next year? If you worked with the database and want to continue to do so, please check both boxes in that row.",
+      "sub": "Worked with in past year",
+      "type": "Matrix",
+      "qname": "Databases",
+      "sq_id": "NA"
+    },
+    "DatabasesWantToWorkWith": {
+      "question": "Which database environments have you done extensive development work in over the past year? Which do you want to work in over the next year? If you worked with the database and want to continue to do so, please check both boxes in that row.",
+      "sub": "Want to work with next year",
+      "type": "Matrix",
+      "qname": "Databases",
+      "sq_id": "NA"
+    },
+    "DevIDEHaveWorkedWith": {
+      "question": "Which development environments and code editors did you use regularly over the past year? Which do you want to use over the next year? Please check all that apply.",
+      "sub": "Used in past year",
+      "type": "Matrix",
+      "qname": "DevIDE",
+      "sq_id": "NA"
+    },
+    "Disruption": {
+      "question": "What kinds of AI mistakes have cost you or your team the most time in the past year? Select all that apply.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "Disruption",
+      "sq_id": "NA"
+    },
+    "Education": {
+      "question": "Which of the following best describes the highest level of formal education that you&#39;ve completed?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "Education",
+      "sq_id": "NA"
+    },
+    "Employment": {
+      "question": "Which of the following best describes your current employment status?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "Employment",
+      "sq_id": "NA"
+    },
+    "EmploymentAddl": {
+      "question": "In addition to your main employment, which of the following other current work, school, or life responsibilities are you currently engaged in?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "EmploymentAddl",
+      "sq_id": "NA"
+    },
+    "Gender": {
+      "question": "Which of the following best represents your gender identity?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "Gender",
+      "sq_id": "NA"
+    },
+    "ICorPM": {
+      "question": "Are you an individual contributor or people manager?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "ICorPM",
+      "sq_id": "NA"
+    },
+    "Industry": {
+      "question": "What industry is the company you work for in?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "Industry",
+      "sq_id": "NA"
+    },
+    "JobDifficulty": {
+      "question": "In the past 6 months, which factor has done the most to make your job harder to do?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "JobDifficulty",
+      "sq_id": "NA"
+    },
+    "JobDifficultyAI_1": {
+      "question": "For each factor that made your job harder, was AI or AI agents a reason?",
+      "sub": "Unclear priorities or requirements",
+      "type": "Matrix",
+      "qname": "JobDifficultyAI",
+      "sq_id": "1"
+    },
+    "JobDifficultyAI_10": {
+      "question": "For each factor that made your job harder, was AI or AI agents a reason?",
+      "sub": "I’m not sure",
+      "type": "Matrix",
+      "qname": "JobDifficultyAI",
+      "sq_id": "10"
+    },
+    "JobDifficultyAI_2": {
+      "question": "For each factor that made your job harder, was AI or AI agents a reason?",
+      "sub": "Lack of access to the right tools or platforms",
+      "type": "Matrix",
+      "qname": "JobDifficultyAI",
+      "sq_id": "2"
+    },
+    "JobDifficultyAI_3": {
+      "question": "For each factor that made your job harder, was AI or AI agents a reason?",
+      "sub": "Unreliable systems, infrastructure, or environments",
+      "type": "Matrix",
+      "qname": "JobDifficultyAI",
+      "sq_id": "3"
+    },
+    "JobDifficultyAI_4": {
+      "question": "For each factor that made your job harder, was AI or AI agents a reason?",
+      "sub": "Poor documentation or knowledge sharing",
+      "type": "Matrix",
+      "qname": "JobDifficultyAI",
+      "sq_id": "4"
+    },
+    "JobDifficultyAI_5": {
+      "question": "For each factor that made your job harder, was AI or AI agents a reason?",
+      "sub": "Lack of support from teammates, managers, or mentors",
+      "type": "Matrix",
+      "qname": "JobDifficultyAI",
+      "sq_id": "5"
+    },
+    "JobDifficultyAI_6": {
+      "question": "For each factor that made your job harder, was AI or AI agents a reason?",
+      "sub": "Not enough time, staffing, or resources",
+      "type": "Matrix",
+      "qname": "JobDifficultyAI",
+      "sq_id": "6"
+    },
+    "JobDifficultyAI_7": {
+      "question": "For each factor that made your job harder, was AI or AI agents a reason?",
+      "sub": "Inefficient processes, workflows, or coordination",
+      "type": "Matrix",
+      "qname": "JobDifficultyAI",
+      "sq_id": "7"
+    },
+    "JobDifficultyAI_8": {
+      "question": "For each factor that made your job harder, was AI or AI agents a reason?",
+      "sub": "Leadership activity or organizational changes",
+      "type": "Matrix",
+      "qname": "JobDifficultyAI",
+      "sq_id": "8"
+    },
+    "JobDifficultyAI_9": {
+      "question": "For each factor that made your job harder, was AI or AI agents a reason?",
+      "sub": "Nothing has made my job harder in the past 6 months",
+      "type": "Matrix",
+      "qname": "JobDifficultyAI",
+      "sq_id": "9"
+    },
+    "JobEase": {
+      "question": "In the past 6 months, which factor has done the most to make your job easier to do?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "JobEase",
+      "sq_id": "NA"
+    },
+    "JobEaseAI_1": {
+      "question": "For each factor that made your job easier, was AI or AI agents a reason?",
+      "sub": "Clear priorities or requirements",
+      "type": "Matrix",
+      "qname": "JobEaseAI",
+      "sq_id": "1"
+    },
+    "JobEaseAI_10": {
+      "question": "For each factor that made your job easier, was AI or AI agents a reason?",
+      "sub": "I’m not sure",
+      "type": "Matrix",
+      "qname": "JobEaseAI",
+      "sq_id": "10"
+    },
+    "JobEaseAI_2": {
+      "question": "For each factor that made your job easier, was AI or AI agents a reason?",
+      "sub": "Access to the right tools or platforms",
+      "type": "Matrix",
+      "qname": "JobEaseAI",
+      "sq_id": "2"
+    },
+    "JobEaseAI_3": {
+      "question": "For each factor that made your job easier, was AI or AI agents a reason?",
+      "sub": "Reliable systems, infrastructure, or environments",
+      "type": "Matrix",
+      "qname": "JobEaseAI",
+      "sq_id": "3"
+    },
+    "JobEaseAI_4": {
+      "question": "For each factor that made your job easier, was AI or AI agents a reason?",
+      "sub": "Helpful documentation or knowledge sharing",
+      "type": "Matrix",
+      "qname": "JobEaseAI",
+      "sq_id": "4"
+    },
+    "JobEaseAI_5": {
+      "question": "For each factor that made your job easier, was AI or AI agents a reason?",
+      "sub": "Supportive teammates, managers, or mentors",
+      "type": "Matrix",
+      "qname": "JobEaseAI",
+      "sq_id": "5"
+    },
+    "JobEaseAI_6": {
+      "question": "For each factor that made your job easier, was AI or AI agents a reason?",
+      "sub": "Enough time, staffing, or resources",
+      "type": "Matrix",
+      "qname": "JobEaseAI",
+      "sq_id": "6"
+    },
+    "JobEaseAI_7": {
+      "question": "For each factor that made your job easier, was AI or AI agents a reason?",
+      "sub": "Leadership activity or organizational changes",
+      "type": "Matrix",
+      "qname": "JobEaseAI",
+      "sq_id": "7"
+    },
+    "JobEaseAI_8": {
+      "question": "For each factor that made your job easier, was AI or AI agents a reason?",
+      "sub": "Better processes, workflows, or coordination",
+      "type": "Matrix",
+      "qname": "JobEaseAI",
+      "sq_id": "8"
+    },
+    "JobEaseAI_9": {
+      "question": "For each factor that made your job easier, was AI or AI agents a reason?",
+      "sub": "Nothing has made my job easier in the past 6 months",
+      "type": "Matrix",
+      "qname": "JobEaseAI",
+      "sq_id": "9"
+    },
+    "JobSat": {
+      "question": "How satisfied are you in your current professional role?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "JobSat",
+      "sq_id": "NA"
+    },
+    "JobSatComplacent": {
+      "question": "If you feel complacent at work, what is the primary driver?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "JobSatComplacent",
+      "sq_id": "NA"
+    },
+    "KnowAgentDelegate": {
+      "question": "For each job function, which tasks have you delegated to an AI tool or agent in the last 30 days?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "KnowAgentDelegate",
+      "sq_id": "NA"
+    },
+    "KnowAgentTrust": {
+      "question": "When using AI tools or agents for work, how much control do you usually have over the work information they use?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "KnowAgentTrust",
+      "sq_id": "NA"
+    },
+    "KnowMgmtHaveWorkedWith": {
+      "question": "Which knowledge management platforms have you used for work in the past year? Which would you like to use next year? Which have you used in your agentic workflows?",
+      "sub": "Used for work in past year",
+      "type": "Matrix",
+      "qname": "KnowMgmt",
+      "sq_id": "NA"
+    },
+    "KnowledgeA": {
+      "question": "In a typical week, how much time do you spend looking for information you need to do your work?  Please provide a whole number representing hours per week, rounding up to the nearest whole number if needed.",
+      "sub": "NA",
+      "type": "TE",
+      "qname": "KnowledgeA",
+      "sq_id": "NA"
+    },
+    "KnowledgeQ": {
+      "question": "When you need to answer a work-related question, which sources do you use most often? Select up to 5.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "KnowledgeQ",
+      "sq_id": "NA"
+    },
+    "KnowledgeSourceAI": {
+      "question": "How important is source attribution when deciding whether to trust an AI-generated technical answer?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "KnowledgeSourceAI",
+      "sq_id": "NA"
+    },
+    "LLMHaveWorkedWith": {
+      "question": "Which LLM model vendors for AI tools have you used for work in the past year? Which would you like to use next year? Select all that apply.",
+      "sub": "Worked with in past year",
+      "type": "Matrix",
+      "qname": "LLM",
+      "sq_id": "NA"
+    },
+    "LanguagesHaveWorkedWith": {
+      "question": "Which programming, scripting, and markup languages have you done extensive development work in over the past year, which do you want to work with over the next year, and which have you used AI tools or AI agents to work with? Select all that apply in each row.",
+      "sub": "Worked with in past year",
+      "type": "Matrix",
+      "qname": "Languages",
+      "sq_id": "NA"
+    },
+    "LanguagesUsedAI": {
+      "question": "Which programming, scripting, and markup languages have you done extensive development work in over the past year, which do you want to work with over the next year, and which have you used AI tools or AI agents to work with? Select all that apply in each row.",
+      "sub": "Used AI tools or AI agents to work with this language",
+      "type": "Matrix",
+      "qname": "Languages",
+      "sq_id": "NA"
+    },
+    "LanguagesWantToWorkWith": {
+      "question": "Which programming, scripting, and markup languages have you done extensive development work in over the past year, which do you want to work with over the next year, and which have you used AI tools or AI agents to work with? Select all that apply in each row.",
+      "sub": "Want to work with next year",
+      "type": "Matrix",
+      "qname": "Languages",
+      "sq_id": "NA"
+    },
+    "LearnAI": {
+      "question": "In the last year, did you spend time learning AI programming or AI-enabled tooling on your own or at work?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "LearnAI",
+      "sq_id": "NA"
+    },
+    "LearnAIHow": {
+      "question": "How did you learn to code for AI in the past year? Select all that apply.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "LearnAIHow",
+      "sq_id": "NA"
+    },
+    "LearnCode": {
+      "question": "Did you begin learning to code or learn a new coding skill or programming language in the last year?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "LearnCode",
+      "sq_id": "NA"
+    },
+    "LearnCodeHow": {
+      "question": "How did you learn to code in the past year? Select all that apply.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "LearnCodeHow",
+      "sq_id": "NA"
+    },
+    "OrgSize": {
+      "question": "Approximately how many people are employed by your employer? This should only include your primary company. If you had more than one employer, please consider the one you spent most of your time working for in the past year.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "OrgSize",
+      "sq_id": "NA"
+    },
+    "PurchasePower": {
+      "question": "Which of the following describes your role in choosing or using software tools at your organization? Select all that apply.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "PurchasePower",
+      "sq_id": "NA"
+    },
+    "Role": {
+      "question": "Which of the following best describes your current role, or the role you held for the most time in the past year?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "Role",
+      "sq_id": "NA"
+    },
+    "RoleFunctions": {
+      "question": "In a typical week, which of the following activities are part of your work? Select all that apply.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "RoleFunctions",
+      "sq_id": "NA"
+    },
+    "SOChange": {
+      "question": "How has AI changed your Stack Overflow usage? Select all that apply.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "SOChange",
+      "sq_id": "NA"
+    },
+    "SOYears": {
+      "question": "How long have you used Stack Overflow?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "SOYears",
+      "sq_id": "NA"
+    },
+    "TechBudget": {
+      "question": "Has your department&#39;s budget increased, decreased, or stayed the same in your most recent budget cycle? When considering your department, refer to the one you are working in today.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "TechBudget",
+      "sq_id": "NA"
+    },
+    "TechDropDown": {
+      "question": "In the last 12 months, has your role at work, school, or in personal projects intersected with any of the following types of settings involving technology? We are going to ask you about tools you used within each setting next. Select all that apply.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "TechDropDown",
+      "sq_id": "NA"
+    },
+    "ToolCount": {
+      "question": "In a typical month over the past year, about how many distinct software tools, platforms, or services did you personally use to do your primary work? Count tools you intentionally opened, configured, or relied on to create, analyze, manage, build, deploy, support, or share work. These may be free, purchased, internal, or open-source tools. Do not count general operating systems, web browsers, programming languages, libraries/packages, one-off scripts or commands, or multiple interchangeable utilities that serve the same narrow purpose.",
+      "sub": "NA",
+      "type": "TE",
+      "qname": "ToolCount",
+      "sq_id": "NA"
+    },
+    "TrustReason": {
+      "question": "When deciding whether to rely on work-related information, which signals matter most to you? Select up to 5.",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "TrustReason",
+      "sq_id": "NA"
+    },
+    "WebFrameworkHaveWorkedWith": {
+      "question": "Which web frameworks and web technologies have you done extensive development work in over the past year? Which do you want to work in over the next year? If you worked with the framework and want to continue to do so, please check both boxes in that row.",
+      "sub": "Worked with in past year",
+      "type": "Matrix",
+      "qname": "WebFramework",
+      "sq_id": "NA"
+    },
+    "WorkExp": {
+      "question": "How many years have you been working professionally in total? Please round to the nearest whole number, excluding any decimal points.  If you have no professional work experience, you can leave this question unanswered.",
+      "sub": "NA",
+      "type": "TE",
+      "qname": "WorkExp",
+      "sq_id": "NA"
+    },
+    "WorkSetting": {
+      "question": "Which best describes your current work situation?",
+      "sub": "NA",
+      "type": "MC",
+      "qname": "WorkSetting",
+      "sq_id": "NA"
+    },
+    "YearsCode": {
+      "question": "Including any education, how many years have you been coding in total? Please round to the nearest whole number, excluding any decimal points.",
+      "sub": "NA",
+      "type": "TE",
+      "qname": "YearsCode",
+      "sq_id": "NA"
+    }
+  }
+}
